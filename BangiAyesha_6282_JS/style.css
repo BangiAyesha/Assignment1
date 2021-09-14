@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 95%;
+    margin: auto;
+}
+.header{
+    background-color: gray;
+    padding: 5px;
+    color: white;
+    min-height: 40px;
+}
+.header ul li{
+    display: inline-block;
+}
+.header li a{
+    text-decoration: none;
+    display: block;
+}
+.fl{
+    float: left;
+}
+.new{
+    float: left;
+    margin-left: 6%;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.banner{
+    background-image: url(Images/dream1.jpg);
+    background-repeat: no-repeat;
+    min-height: 250px;
+    background-color: black;
+    color: white;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    font-family: serif;
+    background-size: cover;
+}
+.button{
+    height: 30px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    border: black;
+}
+.button1{
+    min-height: 30px;
+    min-width: 60px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+}
+.img{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.people{
+    margin: 5%;
+    padding: 1%;
+}
+.photo{
+    border: 1px solid gray;
+    padding: 1%;
+}
+.review{
+    margin: 10px 5% 10px 5%;
+    padding: 1%;
+}
+.img2{
+    border-radius: 50%;
+}
+.photo1{
+    border: 1px white;
+    width: 300px;
+    padding: 1%;
+}
+.featured{
+    padding: 10px;
+}
+.featured ul li{
+    display: inline-block;
+}
+.text1{
+    border: 1px solid white;
+    /* display: flex; */
+    margin-top: -40px;
+}
+.new1{
+    margin-left: 27%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 10% 20px 10%;
+    display: flex;
+    min-width: fit-content;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footli{
+    color: whitesmoke;
+    font-size: small;
+    font-weight: lighter;
+}
+.new2{
+    margin-left: 12%;
+}
+.text2{
+    border: 1px solid white;
+    margin-top: -55px;
+}
+
+
+
+
+@media screen and (max-width:1020px) {
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .banner{
+        width: 51%;
+        margin: auto;
+        height: auto;
+    }
+    .people{
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .new{
+        margin-left: 0%;
+        margin: auto;
+    }
+    .footer{
+        width: 80%;
+        height: auto;
+    }
+    .featured{
+        width: 100%;
+        height: auto;
+    }
+    .review{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .banner{
+        width: 51%;
+    }
+    .footer{
+        width: 82%;
+        height: auto;
+    }
+    .review{
+        width: 80%;
+        height: auto;
+    }
+    .featured{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .featured{
+        width: 90%;
+    }
+    .footer{
+        width: 80%;
+        height: auto;
+    }
+    .new2{
+        margin-left: 6%;
+    }
+    /* .review{
+        width: 80%;
+        height: auto;
+    } */
+}
